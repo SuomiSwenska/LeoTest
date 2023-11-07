@@ -13,4 +13,4 @@ MonoBehaviour:
   m_Name: InitData
   m_EditorClassIdentifier: 
   playerGOPrefab: {fileID: 134194, guid: 7fc937d2be3f5104cbd4f63cdac9fdc9, type: 3}
-  moveSpeed: 2
+  moveSpeed: 0.6

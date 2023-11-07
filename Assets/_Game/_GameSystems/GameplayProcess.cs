@@ -8,11 +8,13 @@ public class GameplayProcess : MonoBehaviour
     public static GameplayProcess instance;
 
     [SerializeField] private CharacterInitData _characterInitData;
+    [SerializeField] private bl_Joystick _bl_Joystick;
 
     private EcsWorld _ecsWorld;
     private GameInitSystem _gameInitSystem;
 
     public CharacterInitData CharacterInitData { get => _characterInitData; }
+    public bl_Joystick Bl_Joystick { get => _bl_Joystick; }
 
     private void Awake()
     {

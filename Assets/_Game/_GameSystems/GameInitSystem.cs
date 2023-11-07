@@ -10,6 +10,7 @@ public class GameInitSystem : IEcsPreInitSystem, IEcsInitSystem, IEcsRunSystem, 
     private EcsEntity _player;
     private AnimatorComponent animator;
     private MovableComponent movable;
+    private bl_Joystick _bl_Joystick;
 
     public void PreInit()
     {
@@ -19,12 +20,20 @@ public class GameInitSystem : IEcsPreInitSystem, IEcsInitSystem, IEcsRunSystem, 
     public void Init()
     {
         InitCharacter();
-
+        _bl_Joystick = GameplayProcess.instance.Bl_Joystick;
     }
 
     public void Run()
     {
-        movable.characterTransform.position += Vector3.forward * Time.deltaTime * movable.moveSpeed;
+        Vector3 direction = new Vector3(_bl_Joystick.Horizontal, 0, _bl_Joystick.Vertical);
+
+        if (direction != Vector3.zero)
+        {
+            Quaternion lookRotation = Quaternion.LookRotation(direction);
+            movable.characterTransform.rotation = lookRotation;
+        }
+
+        movable.characterTransform.position += direction * Time.deltaTime * movable.moveSpeed;
         animator.animator.SetBool("Static_b", false);
     }
 
