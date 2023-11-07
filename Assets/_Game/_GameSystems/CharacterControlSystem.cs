@@ -1,9 +1,7 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 using Leopotam.Ecs;
 
-public class GameInitSystem : IEcsPreInitSystem, IEcsInitSystem, IEcsRunSystem, IEcsDestroySystem, IEcsPostDestroySystem
+public class CharacterControlSystem :  IEcsInitSystem, IEcsRunSystem
 {
     private EcsWorld _ecsWorld;
     private GameObject _playerGO;
@@ -11,11 +9,6 @@ public class GameInitSystem : IEcsPreInitSystem, IEcsInitSystem, IEcsRunSystem, 
     private AnimatorComponent animator;
     private MovableComponent movable;
     private bl_Joystick _bl_Joystick;
-
-    public void PreInit()
-    {
-        throw new System.NotImplementedException();
-    }
 
     public void Init()
     {
@@ -33,19 +26,14 @@ public class GameInitSystem : IEcsPreInitSystem, IEcsInitSystem, IEcsRunSystem, 
             movable.characterTransform.rotation = lookRotation;
         }
 
-        movable.characterTransform.position += direction * Time.deltaTime * movable.moveSpeed;
+        movable.characterRigidbody.MovePosition(movable.characterTransform.position += direction * Time.deltaTime * movable.moveSpeed);
         movable.isMoved = direction.magnitude >= 0.1f;
         animator.animator.SetBool("Static_b", !movable.isMoved);
     }
 
-    public void Destroy()
+    public void InitCameraFollower(CameraFollower cameraFollower)
     {
-        throw new System.NotImplementedException();
-    }
-
-    public void PostDestroy()
-    {
-        throw new System.NotImplementedException();
+        cameraFollower.target = movable.characterTransform;
     }
 
     private void InitCharacter()
@@ -58,6 +46,7 @@ public class GameInitSystem : IEcsPreInitSystem, IEcsInitSystem, IEcsRunSystem, 
         _playerGO = GameObject.Instantiate(GameplayProcess.instance.CharacterInitData.PlayerGOPrefab, Vector3.zero, Quaternion.identity);
         movable.moveSpeed = GameplayProcess.instance.CharacterInitData.MoveSpeed;
         movable.characterTransform = _playerGO.transform;
+        movable.characterRigidbody = _playerGO.GetComponent<Rigidbody>();
         animator.animator = _playerGO.transform.GetComponent<Animator>();
     }
 }
