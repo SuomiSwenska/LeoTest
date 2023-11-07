@@ -34,7 +34,8 @@ public class GameInitSystem : IEcsPreInitSystem, IEcsInitSystem, IEcsRunSystem, 
         }
 
         movable.characterTransform.position += direction * Time.deltaTime * movable.moveSpeed;
-        animator.animator.SetBool("Static_b", false);
+        movable.isMoved = direction.magnitude >= 0.1f;
+        animator.animator.SetBool("Static_b", !movable.isMoved);
     }
 
     public void Destroy()
