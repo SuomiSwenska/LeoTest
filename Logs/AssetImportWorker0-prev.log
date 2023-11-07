@@ -1,0 +1,650 @@
+Using pre-set license
+Built from '2021.3/release' branch; Version is '2021.3.27f1 (ca3ffb99bcc6) revision 13254651'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22000) 64bit CoreSingleLanguage' Language: 'en' Physical Memory: 15775 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2021.3.27f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/Suomi/LeoTest
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+49920
+Successfully changed project path to: C:/Users/Suomi/LeoTest
+C:/Users/Suomi/LeoTest
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [14280] Host "[IP] 192.168.1.4 [Port] 0 [Flags] 2 [Guid] 4124165590 [EditorId] 4124165590 [Version] 1048832 [Id] WindowsEditor(7,Rog-Strix-G17) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [14280] Host "[IP] 192.168.1.4 [Port] 0 [Flags] 2 [Guid] 4124165590 [EditorId] 4124165590 [Version] 1048832 [Id] WindowsEditor(7,Rog-Strix-G17) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+Refreshing native plugins compatible for Editor in 55.01 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.27f1 (ca3ffb99bcc6)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.27f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/Suomi/LeoTest/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: AMD Radeon RX 6800M (ID=0x73df)
+    Vendor:   ATI
+    VRAM:     12242 MB
+    Driver:   31.0.12029.1042
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.27f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.27f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.27f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56068
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.27f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.27f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.004829 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Android Extension - Scanning For ADB Devices 164 ms
+Refreshing native plugins compatible for Editor in 53.17 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.649 seconds
+Domain Reload Profiling:
+	ReloadAssembly (649ms)
+		BeginReloadAssembly (62ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (514ms)
+			LoadAssemblies (60ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (76ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (19ms)
+			SetupLoadedEditorAssemblies (381ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (231ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (53ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (63ms)
+				ProcessInitializeOnLoadMethodAttributes (32ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.004581 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\Suomi\LeoTest\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\Suomi\LeoTest\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 0.78 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.771 seconds
+Domain Reload Profiling:
+	ReloadAssembly (772ms)
+		BeginReloadAssembly (93ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (18ms)
+		EndReloadAssembly (595ms)
+			LoadAssemblies (68ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (198ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (38ms)
+			SetupLoadedEditorAssemblies (261ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (18ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (61ms)
+				ProcessInitializeOnLoadAttributes (160ms)
+				ProcessInitializeOnLoadMethodAttributes (16ms)
+				AfterProcessingInitializeOnLoad (5ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (4ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
+Refreshing native plugins compatible for Editor in 0.72 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3058 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 22 unused Assets / (46.3 KB). Loaded Objects now: 3523.
+Memory consumption went from 112.3 MB to 112.3 MB.
+Total: 3.028400 ms (FindLiveObjects: 0.262900 ms CreateObjectMapping: 0.078700 ms MarkObjects: 2.610200 ms  DeleteObjects: 0.075600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 503.884799 seconds.
+  path: Assets/ThirdPartyAssets/Synty Studios/3D ModelsCharacters/Simple Military - Cartoon War.unitypackage
+  artifactKey: Guid(c89b85fa1764b3344af5f077a5c90440) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdPartyAssets/Synty Studios/3D ModelsCharacters/Simple Military - Cartoon War.unitypackage using Guid(c89b85fa1764b3344af5f077a5c90440) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa10519b737f4ad08b1ad3c6129b121f') in 0.020456 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 106.458395 seconds.
+  path: Assets/ThirdPartyAssets/Synty Studios/3D ModelsVehiclesSpace
+  artifactKey: Guid(23fd945b559a82644a02de4572e885dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdPartyAssets/Synty Studios/3D ModelsVehiclesSpace using Guid(23fd945b559a82644a02de4572e885dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd733f1ba2ee1484b08e431eabb4fbbb5') in 0.006267 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.212663 seconds.
+  path: Assets/ThirdPartyAssets/Synty Studios/3D ModelsVehiclesSpace/Simple Space - Cartoon Assets.unitypackage
+  artifactKey: Guid(663ca13788646f2499c8b6e801795580) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdPartyAssets/Synty Studios/3D ModelsVehiclesSpace/Simple Space - Cartoon Assets.unitypackage using Guid(663ca13788646f2499c8b6e801795580) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '08a70ccc6e0bdd90d2bd98c57ffae6f9') in 0.004921 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 23.443466 seconds.
+  path: Assets/ThirdPartyAssets/Synty Studios/3D ModelsEnvironmentsDungeons
+  artifactKey: Guid(0aad7cd960e3a8643807567dd6dd24b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdPartyAssets/Synty Studios/3D ModelsEnvironmentsDungeons using Guid(0aad7cd960e3a8643807567dd6dd24b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f80e6629f6a8fc4caaf034c0cd541527') in 0.005466 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.702096 seconds.
+  path: Assets/ThirdPartyAssets/Synty Studios/3D ModelsEnvironmentsDungeons/Simple Dungeons - Cartoon Assets.unitypackage
+  artifactKey: Guid(5777229e212fc9e44b52d27e5628f4a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdPartyAssets/Synty Studios/3D ModelsEnvironmentsDungeons/Simple Dungeons - Cartoon Assets.unitypackage using Guid(5777229e212fc9e44b52d27e5628f4a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '53bd96a19eea9c13a478a88d17d623f7') in 0.005213 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 9.791896 seconds.
+  path: Assets/ThirdPartyAssets/Synty Studios/3D ModelsCharactersAnimals
+  artifactKey: Guid(b9fce9231b5245e49a56e41cc48074e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdPartyAssets/Synty Studios/3D ModelsCharactersAnimals using Guid(b9fce9231b5245e49a56e41cc48074e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b6d4cd25d1e3bd94045f2cb827110c9') in 0.006030 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.185385 seconds.
+  path: Assets/ThirdPartyAssets/Synty Studios/3D ModelsCharactersAnimalsMammals
+  artifactKey: Guid(244dcb069bc9c1345a129e128c2fa89e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdPartyAssets/Synty Studios/3D ModelsCharactersAnimalsMammals using Guid(244dcb069bc9c1345a129e128c2fa89e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f2e9eb08be45b0e2dfbdb99c67407989') in 0.005119 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.606159 seconds.
+  path: Assets/ThirdPartyAssets/Synty Studios/3D ModelsCharacters/Simple Celebrations - Cartoon assets.unitypackage
+  artifactKey: Guid(930a015410b338743be7dc8c29ed3240) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdPartyAssets/Synty Studios/3D ModelsCharacters/Simple Celebrations - Cartoon assets.unitypackage using Guid(930a015410b338743be7dc8c29ed3240) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '56a360efcbe53f68b139344d66b2038e') in 0.004973 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 49.007914 seconds.
+  path: Assets/SimpleCelebrations
+  artifactKey: Guid(351b6e3715309254fbf16e91c905cce1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimpleCelebrations using Guid(351b6e3715309254fbf16e91c905cce1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d8145689808b247989a989886872485') in 0.005472 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.585439 seconds.
+  path: Assets/SimpleCelebrations/_Demo
+  artifactKey: Guid(99b051473a5e7994fa20f1e211814b4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimpleCelebrations/_Demo using Guid(99b051473a5e7994fa20f1e211814b4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc4942be3ee5b5d6d225c81fbf9a9d04') in 0.004790 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.026818 seconds.
+  path: Assets/SimpleCelebrations/_Demo/Ground.mat
+  artifactKey: Guid(a6f142813a0e3c044b9aab953b5ddad4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimpleCelebrations/_Demo/Ground.mat using Guid(a6f142813a0e3c044b9aab953b5ddad4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4223b4b5cd551d92f9880cd2edae83a9') in 0.269668 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.616409 seconds.
+  path: Assets/SimpleCelebrations/_Demo/Demo.unity
+  artifactKey: Guid(5d94b2c5cb57dcf4f945ae09b48dce7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimpleCelebrations/_Demo/Demo.unity using Guid(5d94b2c5cb57dcf4f945ae09b48dce7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6618a4a5a985f7afa12a3b13c4603bd') in 0.005840 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 71.617878 seconds.
+  path: Assets/SimpleCelebrations/_Prefabs
+  artifactKey: Guid(579160e064eae9244adddb6736bdbc43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimpleCelebrations/_Prefabs using Guid(579160e064eae9244adddb6736bdbc43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '04b216db471c88fcad368fdab4b07e03') in 0.005707 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.031403 seconds.
+  path: Assets/SimpleCelebrations/_Prefabs/SC_Balloon_01.prefab
+  artifactKey: Guid(3b1366fd9142c30439fa0d1e9de6d0ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimpleCelebrations/_Prefabs/SC_Balloon_01.prefab using Guid(3b1366fd9142c30439fa0d1e9de6d0ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7af051d12c50fe14720aaaf75873221d') in 0.023574 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/SimpleCelebrations/_Prefabs/SC_Birthday_PartyBlower_01.prefab
+  artifactKey: Guid(340b6dadf9b44854fa3f26b5093f8a36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimpleCelebrations/_Prefabs/SC_Birthday_PartyBlower_01.prefab using Guid(340b6dadf9b44854fa3f26b5093f8a36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc4945a495daf126ca6e25c5fd799370') in 0.012867 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/SimpleCelebrations/_Prefabs/SC_Birthday_Cake.prefab
+  artifactKey: Guid(921ac26301ffdd24b9b1da105884e8da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimpleCelebrations/_Prefabs/SC_Birthday_Cake.prefab using Guid(921ac26301ffdd24b9b1da105884e8da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b372ee3b38e3982f1bb008059fa5d93') in 0.010373 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/SimpleCelebrations/_Prefabs/SC_Birthday_CakeSlice_Plate.prefab
+  artifactKey: Guid(24705c08e99c4b64e8406aa3401cbd4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimpleCelebrations/_Prefabs/SC_Birthday_CakeSlice_Plate.prefab using Guid(24705c08e99c4b64e8406aa3401cbd4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c08ff966e76ad6766c7503fbc6096eff') in 0.009863 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/SimpleCelebrations/_Prefabs/SC_Christmas_Icicle_01.prefab
+  artifactKey: Guid(353be898ea1480646a67f15553270d09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimpleCelebrations/_Prefabs/SC_Christmas_Icicle_01.prefab using Guid(353be898ea1480646a67f15553270d09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '06480df6d4a76dc9667dbeed8389e661') in 0.010353 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/SimpleCelebrations/_Prefabs/SC_Christmas_Snow.prefab
+  artifactKey: Guid(08d5ce73c1361a442a33dd93d7bae87c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimpleCelebrations/_Prefabs/SC_Christmas_Snow.prefab using Guid(08d5ce73c1361a442a33dd93d7bae87c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '95f3043eb4b6c14a9c996dbd993a1cde') in 0.009590 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/SimpleCelebrations/_Prefabs/SC_ChineseNewYear_Dragon_Body.prefab
+  artifactKey: Guid(c5cd1d04ca7314c42b80c049eb68be60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimpleCelebrations/_Prefabs/SC_ChineseNewYear_Dragon_Body.prefab using Guid(c5cd1d04ca7314c42b80c049eb68be60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed7a1a43442d3d23b855fa561d504927') in 0.009095 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/SimpleCelebrations/_Prefabs/SC_ChineseNewYear_Sign_02.prefab
+  artifactKey: Guid(06d490efd62eeff47875fceaf6c2dcba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimpleCelebrations/_Prefabs/SC_ChineseNewYear_Sign_02.prefab using Guid(06d490efd62eeff47875fceaf6c2dcba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '895a27c9a66f2edb70b9d1984527e9f9') in 0.010681 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/SimpleCelebrations/_Prefabs/SC_Christmas_Snowman.prefab
+  artifactKey: Guid(1abfecfaf8f593e4a86cc58e0b16644d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimpleCelebrations/_Prefabs/SC_Christmas_Snowman.prefab using Guid(1abfecfaf8f593e4a86cc58e0b16644d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a5d07fccd70c99be2f150c2ef9438f36') in 0.011922 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/SimpleCelebrations/_Prefabs/SC_Christmas_Ornaments_06.prefab
+  artifactKey: Guid(f6920030faf2f084da5946278ad4dd2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimpleCelebrations/_Prefabs/SC_Christmas_Ornaments_06.prefab using Guid(f6920030faf2f084da5946278ad4dd2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5597cc62a854bf6fa613405233881630') in 0.010139 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/SimpleCelebrations/_Prefabs/SC_Christmas_Presents_08.prefab
+  artifactKey: Guid(3f1bd6bcb8e10d64bb5cca1448be419f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimpleCelebrations/_Prefabs/SC_Christmas_Presents_08.prefab using Guid(3f1bd6bcb8e10d64bb5cca1448be419f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43e4a1410442bdd33f191b6cdc81f884') in 0.010682 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/SimpleCelebrations/_Prefabs/SC_Christmas_CandyCane.prefab
+  artifactKey: Guid(1716bf543a99f0e46b6cb72e430cc419) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimpleCelebrations/_Prefabs/SC_Christmas_CandyCane.prefab using Guid(1716bf543a99f0e46b6cb72e430cc419) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f777a46091cf52030c2c80f090120b14') in 0.010020 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/SimpleCelebrations/_Prefabs/SC_Christmas_Presents_05.prefab
+  artifactKey: Guid(336c1b209cf9ffa4aa86a4172ffd43a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimpleCelebrations/_Prefabs/SC_Christmas_Presents_05.prefab using Guid(336c1b209cf9ffa4aa86a4172ffd43a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b2ddc5117ddbe864970abe0aa539c7a9') in 0.010467 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/SimpleCelebrations/_Prefabs/SC_Christmas_Presents_06.prefab
+  artifactKey: Guid(a1af5a65817096246a5279de870cbd5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimpleCelebrations/_Prefabs/SC_Christmas_Presents_06.prefab using Guid(a1af5a65817096246a5279de870cbd5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ba84119347a421515cdfbb02eb776e6') in 0.010344 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/SimpleCelebrations/_Prefabs/SC_Balloon_04.prefab
+  artifactKey: Guid(bb78c239844e8c04caf05d4d2960aa67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimpleCelebrations/_Prefabs/SC_Balloon_04.prefab using Guid(bb78c239844e8c04caf05d4d2960aa67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '292032015bc8972d4b8442eb28a49666') in 0.011587 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/SimpleCelebrations/_Prefabs/SC_CincoDeMayo_Sombrero.prefab
+  artifactKey: Guid(94842fe8fece7a042aefc1c742354276) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimpleCelebrations/_Prefabs/SC_CincoDeMayo_Sombrero.prefab using Guid(94842fe8fece7a042aefc1c742354276) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af5ba886c24876742d75591f86f9d3be') in 0.010398 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/SimpleCelebrations/_Prefabs/SC_CincoDeMayo_Shaker.prefab
+  artifactKey: Guid(a62409ae534793943b2b1a8e766f09f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimpleCelebrations/_Prefabs/SC_CincoDeMayo_Shaker.prefab using Guid(a62409ae534793943b2b1a8e766f09f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8db67fdb6d069bbc04581ad5aa25047f') in 0.012775 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/SimpleCelebrations/_Prefabs/SC_Christmas_Ornaments_03.prefab
+  artifactKey: Guid(a23c9d15d819e3e4bab64c3082e43b47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimpleCelebrations/_Prefabs/SC_Christmas_Ornaments_03.prefab using Guid(a23c9d15d819e3e4bab64c3082e43b47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '49587edc7db518bf20f185783f7a8a8d') in 0.013193 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/SimpleCelebrations/_Prefabs/SC_Christmas_Ribbon.prefab
+  artifactKey: Guid(4f1e6f65316c03d4fb3e3f48741c3351) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimpleCelebrations/_Prefabs/SC_Christmas_Ribbon.prefab using Guid(4f1e6f65316c03d4fb3e3f48741c3351) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b2e8f08d6a51f3efc2aa6ef698410930') in 0.012147 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/SimpleCelebrations/_Prefabs/SC_Christmas_Wreath.prefab
+  artifactKey: Guid(e235ca8d32a4f344182f3392dd2901e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimpleCelebrations/_Prefabs/SC_Christmas_Wreath.prefab using Guid(e235ca8d32a4f344182f3392dd2901e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b0da4bf9c38ccfd0eb1d9af6b634532') in 0.011380 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/SimpleCelebrations/_Prefabs/SC_Christmas_Icicle_02.prefab
+  artifactKey: Guid(d3f8db1788428aa4bacd56fe9a832cf8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimpleCelebrations/_Prefabs/SC_Christmas_Icicle_02.prefab using Guid(d3f8db1788428aa4bacd56fe9a832cf8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5319c32894c30c3772275ab06d02b93b') in 0.011220 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/SimpleCelebrations/_Prefabs/SC_Christmas_Presents_04.prefab
+  artifactKey: Guid(e5d6cff1b0bfaa34a8780c8748448700) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimpleCelebrations/_Prefabs/SC_Christmas_Presents_04.prefab using Guid(e5d6cff1b0bfaa34a8780c8748448700) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '35d6d9c6e3dd7abb8ef649ed88c74173') in 0.012560 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/SimpleCelebrations/_Prefabs/SC_ChineseNewYear_Dragon_Tail.prefab
+  artifactKey: Guid(eab36646e18e5d54c972e37dce5ab9bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimpleCelebrations/_Prefabs/SC_ChineseNewYear_Dragon_Tail.prefab using Guid(eab36646e18e5d54c972e37dce5ab9bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '462ac338a63939c720220c36ef9ba443') in 0.010552 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/SimpleCelebrations/_Prefabs/SC_Easter_Basket_Eggs.prefab
+  artifactKey: Guid(141ee8a36cbd81d45b4d173f1e07f69d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimpleCelebrations/_Prefabs/SC_Easter_Basket_Eggs.prefab using Guid(141ee8a36cbd81d45b4d173f1e07f69d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '11c894d54c7987430669c11201abcd04') in 0.011835 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/SimpleCelebrations/_Prefabs/SC_Christmas_Tree.prefab
+  artifactKey: Guid(65332cf47be08224ab5d53f489479a1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimpleCelebrations/_Prefabs/SC_Christmas_Tree.prefab using Guid(65332cf47be08224ab5d53f489479a1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '247376f136efea508eb713a7b6b55f04') in 0.012646 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/SimpleCelebrations/_Prefabs/SC_Christmas_Ornaments_01.prefab
+  artifactKey: Guid(90e6798d14fb6e048a0c17a47f3c7e1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimpleCelebrations/_Prefabs/SC_Christmas_Ornaments_01.prefab using Guid(90e6798d14fb6e048a0c17a47f3c7e1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9bb543bc8b214cf3d6a3ea33a38741fa') in 0.013159 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/SimpleCelebrations/_Prefabs/SC_Christmas_Holly.prefab
+  artifactKey: Guid(13f99ecdf09359347998239b5aae3dec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimpleCelebrations/_Prefabs/SC_Christmas_Holly.prefab using Guid(13f99ecdf09359347998239b5aae3dec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a1ca0c15c87dd346fc62b484612e0294') in 0.011399 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/SimpleCelebrations/_Prefabs/SC_Christmas_Stocking.prefab
+  artifactKey: Guid(45711896ad9dbac469fe35b2a9a6c085) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimpleCelebrations/_Prefabs/SC_Christmas_Stocking.prefab using Guid(45711896ad9dbac469fe35b2a9a6c085) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '463cc2548693e35be0992b4106b2ef12') in 0.011679 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/SimpleCelebrations/_Prefabs/SC_ChineseNewYear_Dragon_Preset.prefab
+  artifactKey: Guid(4e1fa653d1ab27846b290123c3c15476) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimpleCelebrations/_Prefabs/SC_ChineseNewYear_Dragon_Preset.prefab using Guid(4e1fa653d1ab27846b290123c3c15476) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2bf13bf1d5e2bda731d9f9ca40d8ce54') in 0.011385 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/SimpleCelebrations/_Prefabs/SC_CincoDeMayo_Flags.prefab
+  artifactKey: Guid(9f3396c36bfd916448111a79f4d65585) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimpleCelebrations/_Prefabs/SC_CincoDeMayo_Flags.prefab using Guid(9f3396c36bfd916448111a79f4d65585) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '52a98ff5396ddcee3d6fc8355074724d') in 0.010954 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/SimpleCelebrations/_Prefabs/SC_Easter_Carrot_01.prefab
+  artifactKey: Guid(7db0dbfb5c6a9274a90c918ea0d948a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimpleCelebrations/_Prefabs/SC_Easter_Carrot_01.prefab using Guid(7db0dbfb5c6a9274a90c918ea0d948a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1051637d4b3a7d846b2bbe905d158655') in 0.011760 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/SimpleCelebrations/_Prefabs/SC_Balloon_03.prefab
+  artifactKey: Guid(3513799dd6766be4fb5c055ad17c7667) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimpleCelebrations/_Prefabs/SC_Balloon_03.prefab using Guid(3513799dd6766be4fb5c055ad17c7667) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42a1a154675198299301365a1d8c9233') in 0.012338 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/SimpleCelebrations/_Prefabs/SC_Birthday_CakeSlice.prefab
+  artifactKey: Guid(a72b1a5b422edc24d981e3d09da223bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimpleCelebrations/_Prefabs/SC_Birthday_CakeSlice.prefab using Guid(a72b1a5b422edc24d981e3d09da223bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eae46ea4ffdc528b284bcbeba27da0b2') in 0.012172 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/SimpleCelebrations/_Prefabs/SC_Christmas_Candles.prefab
+  artifactKey: Guid(8f06f0525ce8b66409fb34a161d756de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimpleCelebrations/_Prefabs/SC_Christmas_Candles.prefab using Guid(8f06f0525ce8b66409fb34a161d756de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '29aa93a773dde79aa2d3a59a0402ea28') in 0.011462 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/SimpleCelebrations/_Prefabs/SC_Easter_Basket.prefab
+  artifactKey: Guid(b0e75e6ebafd6a24296cb47ae37199ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimpleCelebrations/_Prefabs/SC_Easter_Basket.prefab using Guid(b0e75e6ebafd6a24296cb47ae37199ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dfa00e46903969af73a9c904daf00f95') in 0.014685 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/SimpleCelebrations/_Prefabs/SC_Christmas_GingerbreadMan.prefab
+  artifactKey: Guid(4b426ae3a5246d44db2e04ca9f8dc029) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimpleCelebrations/_Prefabs/SC_Christmas_GingerbreadMan.prefab using Guid(4b426ae3a5246d44db2e04ca9f8dc029) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c3e9f3431b6b9d5e5b8ce353425003e') in 0.011098 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/SimpleCelebrations/_Prefabs/SC_Easter_Egg_01.prefab
+  artifactKey: Guid(c74714b909a03ab43b846b222798b6cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimpleCelebrations/_Prefabs/SC_Easter_Egg_01.prefab using Guid(c74714b909a03ab43b846b222798b6cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '914b300df324cbc6b8958585ca7620be') in 0.010216 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/SimpleCelebrations/_Prefabs/SC_Christmas_Tree_Undecorated.prefab
+  artifactKey: Guid(d62c6d83e1f3895468e16080ff601cd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimpleCelebrations/_Prefabs/SC_Christmas_Tree_Undecorated.prefab using Guid(d62c6d83e1f3895468e16080ff601cd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0dae00d28c7544322ebe55ceec683859') in 0.011105 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/SimpleCelebrations/_Prefabs/SC_CincoDeMayo_Cactus.prefab
+  artifactKey: Guid(e15aa9744f0888f41b808ce60dec616b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimpleCelebrations/_Prefabs/SC_CincoDeMayo_Cactus.prefab using Guid(e15aa9744f0888f41b808ce60dec616b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'abd95ed65ce7e6ef4b227e00d53b750e') in 0.010710 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/SimpleCelebrations/_Prefabs/SC_Christmas_Presents_08_Openable.prefab
+  artifactKey: Guid(4b59dd052173d2446b5839cbfdf88d12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimpleCelebrations/_Prefabs/SC_Christmas_Presents_08_Openable.prefab using Guid(4b59dd052173d2446b5839cbfdf88d12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3efe32def17c97017bcb2d74e2e6f2bc') in 0.012515 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/SimpleCelebrations/_Prefabs/SC_ChineseNewYear_Dragon_Head.prefab
+  artifactKey: Guid(76d8e6c012d9d2345b1f8521036b635d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimpleCelebrations/_Prefabs/SC_ChineseNewYear_Dragon_Head.prefab using Guid(76d8e6c012d9d2345b1f8521036b635d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '54f50526eaa2b7be905b0c974eaa8e1e') in 0.011758 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/SimpleCelebrations/_Prefabs/SC_ChineseNewYear_Lantern.prefab
+  artifactKey: Guid(fed60cedc9504a84981640708652d9d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimpleCelebrations/_Prefabs/SC_ChineseNewYear_Lantern.prefab using Guid(fed60cedc9504a84981640708652d9d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e1d90c3e18a0276538f2e34fcbbc938') in 0.012953 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.652707 seconds.
+  path: Assets/SimpleCelebrations/_Prefabs/Characters
+  artifactKey: Guid(74ed0817348d7fa499266a65c98201b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimpleCelebrations/_Prefabs/Characters using Guid(74ed0817348d7fa499266a65c98201b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d70a0e8cb3516ae8daede3d35a0b646') in 0.006020 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.057477 seconds.
+  path: Assets/SimpleCelebrations/_Prefabs/Characters/SC_Characte_Devil.prefab
+  artifactKey: Guid(48f67f538aa0f5345b9e3dbbca2cfad2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimpleCelebrations/_Prefabs/Characters/SC_Characte_Devil.prefab using Guid(48f67f538aa0f5345b9e3dbbca2cfad2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '725efb457a76bfc17627cbbca92d562e') in 0.084518 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/SimpleCelebrations/_Prefabs/Characters/SC_Character_Uncle_Sam.prefab
+  artifactKey: Guid(9f08c81de196b1148b1ecca103850d4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimpleCelebrations/_Prefabs/Characters/SC_Character_Uncle_Sam.prefab using Guid(9f08c81de196b1148b1ecca103850d4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2bf05f28872e2259b2f2be277a844d9c') in 0.042725 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/SimpleCelebrations/_Prefabs/Characters/SC_Character_Frankenstein.prefab
+  artifactKey: Guid(b9c9dcd6489892748b81199aabb5f4a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimpleCelebrations/_Prefabs/Characters/SC_Character_Frankenstein.prefab using Guid(b9c9dcd6489892748b81199aabb5f4a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f88396109a97a9e44c8f65fd91f79542') in 0.042687 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/SimpleCelebrations/_Prefabs/Characters/SC_Character_Elf.prefab
+  artifactKey: Guid(13277f290013c2f4396573c97b97fcfe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimpleCelebrations/_Prefabs/Characters/SC_Character_Elf.prefab using Guid(13277f290013c2f4396573c97b97fcfe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b902916d3c00e41c6b2da47f7c601283') in 0.043954 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/SimpleCelebrations/_Prefabs/Characters/SC_Character_EasterBunnyGuy.prefab
+  artifactKey: Guid(2c66c7eee61573243afb93f9b940287f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimpleCelebrations/_Prefabs/Characters/SC_Character_EasterBunnyGuy.prefab using Guid(2c66c7eee61573243afb93f9b940287f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a87627b0994e09467fa30efe01822d8') in 0.046238 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003384 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\Suomi\LeoTest\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\Suomi\LeoTest\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 0.48 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.721 seconds
+Domain Reload Profiling:
+	ReloadAssembly (721ms)
+		BeginReloadAssembly (114ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (3ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (32ms)
+		EndReloadAssembly (538ms)
+			LoadAssemblies (63ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (186ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (28ms)
+			SetupLoadedEditorAssemblies (229ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (16ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (45ms)
+				ProcessInitializeOnLoadAttributes (145ms)
+				ProcessInitializeOnLoadMethodAttributes (16ms)
+				AfterProcessingInitializeOnLoad (6ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.29 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3051 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 15 unused Assets / (22.0 KB). Loaded Objects now: 3569.
+Memory consumption went from 125.7 MB to 125.6 MB.
+Total: 2.529500 ms (FindLiveObjects: 0.196600 ms CreateObjectMapping: 0.129300 ms MarkObjects: 2.180500 ms  DeleteObjects: 0.022200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003330 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\Suomi\LeoTest\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\Suomi\LeoTest\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 0.49 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.795 seconds
+Domain Reload Profiling:
+	ReloadAssembly (796ms)
+		BeginReloadAssembly (136ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (46ms)
+		EndReloadAssembly (590ms)
+			LoadAssemblies (71ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (210ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (30ms)
+			SetupLoadedEditorAssemblies (248ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (16ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (48ms)
+				ProcessInitializeOnLoadAttributes (158ms)
+				ProcessInitializeOnLoadMethodAttributes (18ms)
+				AfterProcessingInitializeOnLoad (7ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.30 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3051 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 15 unused Assets / (22.1 KB). Loaded Objects now: 3572.
+Memory consumption went from 125.7 MB to 125.7 MB.
+Total: 2.485500 ms (FindLiveObjects: 0.192400 ms CreateObjectMapping: 0.121500 ms MarkObjects: 2.136300 ms  DeleteObjects: 0.034700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
