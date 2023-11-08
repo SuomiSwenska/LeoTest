@@ -2,17 +2,30 @@ using System;
 using Leopotam.Ecs;
 using UnityEngine;
 
-public class Cake : IEcsInitSystem, IEcsRunSystem
+public struct Cake : IEcsInitSystem
 {
-    public Action OnCakeTriggerEnter;
+    public Transform CakeTransform;
+    public GameObject CakeStackItem;
+
+    private MeshRenderer _meshRenderer;
+    private Collider _collider;
 
     public void Init()
     {
-        
+        _meshRenderer = CakeTransform.GetComponent<MeshRenderer>();
+        _collider = CakeTransform.GetComponent<Collider>();
     }
 
-    public void Run()
+    public void CakeBodyOff()
     {
-        //TODO something
+        _meshRenderer.enabled = false;
+        _collider.enabled = false;
+    }
+
+    public void CakeBodyOn()
+    {
+        if (_meshRenderer == null) return;
+        _meshRenderer.enabled = true;
+        _collider.enabled = true;
     }
 }

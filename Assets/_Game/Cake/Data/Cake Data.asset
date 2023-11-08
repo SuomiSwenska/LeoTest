@@ -13,3 +13,4 @@ MonoBehaviour:
   m_Name: Cake Data
   m_EditorClassIdentifier: 
   _cakePrefab: {fileID: 4310609485357858148, guid: 720edd368e7712c49815494000d2b9dc, type: 3}
+  _respawnDelay: 5

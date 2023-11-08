@@ -3,6 +3,7 @@ using UnityEngine;
 
 public class CakeCollision : MonoBehaviour
 {
+    public Action<Cake> OnCakeTriggerEnter;
     private Cake _cake;
 
     public void InitCakeTrigger(Cake cake)
@@ -10,11 +11,11 @@ public class CakeCollision : MonoBehaviour
         _cake = cake;
     }
 
-    private void OnCollisionEnter(Collision collision)
+    private void OnTriggerEnter(Collider other)
     {
-        if (collision.transform.tag == "Player")
+        if (other.tag == "Player")
         {
-            _cake.OnCakeTriggerEnter?.Invoke();
+            OnCakeTriggerEnter?.Invoke(_cake);
         }
     }
 }
